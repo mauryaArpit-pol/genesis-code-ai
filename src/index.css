@@ -83,7 +83,14 @@
 }
 
 .editor-container {
-  @apply h-full w-full overflow-hidden rounded-md border border-border bg-editor-bg text-editor-text;
+  @apply h-full;
+  @apply w-full;
+  @apply overflow-hidden;
+  @apply rounded-md;
+  @apply border;
+  @apply border-border;
+  @apply bg-editor-bg;
+  @apply text-editor-text;
 }
 
 .monaco-editor .line-numbers {
@@ -109,7 +116,8 @@
 
 /* Terminal styling */
 .terminal {
-  @apply font-mono text-sm;
+  @apply font-mono;
+  @apply text-sm;
 }
 
 .terminal .output {

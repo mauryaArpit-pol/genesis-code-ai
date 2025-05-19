@@ -70,7 +70,7 @@ export default {
 					highlight: 'rgba(255, 255, 255, 0.1)',
 					selection: 'rgba(79, 84, 92, 0.4)',
 					widget: '#252526',
-					widget-border: '#454545'
+					'widget-border': '#454545'
 				},
 				ai: {
 					suggest: '#4d9375',
