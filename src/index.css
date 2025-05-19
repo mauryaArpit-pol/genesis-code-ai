@@ -91,11 +91,20 @@
 }
 
 .ai-response-content code {
-  @apply rounded-md bg-secondary p-1 font-mono text-sm;
+  @apply rounded-md;
+  @apply bg-secondary;
+  @apply p-1;
+  @apply font-mono;
+  @apply text-sm;
 }
 
 .ai-response-content pre {
-  @apply my-2 rounded-md bg-secondary p-4 font-mono text-sm;
+  @apply my-2;
+  @apply rounded-md;
+  @apply bg-secondary;
+  @apply p-4;
+  @apply font-mono;
+  @apply text-sm;
 }
 
 /* Terminal styling */
